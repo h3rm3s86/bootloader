@@ -1,5 +1,8 @@
-# bootloader
+# README
 
-# compile: nasm bootloader.asm -o boot.bin
-# create img: dd if=boot.bin of=boot.img conv=notrunc
-#             dd if=boot.bin bs=512 of=boot.img conv=notrunc
+*compile: nasm bootloader.asm -o boot.bin
+
+*create img: dd if=boot.bin of=boot.img conv=notrunc
+*            dd if=boot.bin bs=512 of=boot.img conv=notrunc
+
+# bootloader
